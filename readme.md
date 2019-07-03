@@ -2,6 +2,10 @@
 
 ## Ubuntu
 
+### Chrome
+
+### Sogou Pinyin
+
 ### Git
 
 ### Zsh
