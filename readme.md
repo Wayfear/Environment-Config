@@ -64,6 +64,9 @@ sudo apt install tmux
 ```
 
 ### Filezilla
+```bash
+sudo apt install filezilla
+```
 
 ### Anaconda
 
