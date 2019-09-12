@@ -4,7 +4,18 @@
 
 ### Chrome
 
-### Sogou Pinyin
+### Cuda
+```bash
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+sudo apt update
+
+sudo ubuntu-drivers autoinstall
+
+sudo apt install gcc-6
+
+# Then install cuda and cudnn based on the version required by pytorch and tensorflow from office website
+```
 
 ### Git
 ```bash
@@ -32,10 +43,12 @@ chsh -s /bin/zsh
  - [autojump](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
 ```bash
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone git://github.com/wting/autojump.git
+cd autojump
+./install.py
 
 # in ~/.zshrc
-plugins=(zsh-autosuggestions)
+plugins=(autojump)
 ```
 
  - web-search
@@ -80,5 +93,12 @@ sudo apt install filezilla
  - YAML
  - Markdown All in One
 
+
+### Sougou
+```bash
+sudo apt-get install fcitx-bin
+sudo apt-get install fcitx-table
+
+```
 
 
